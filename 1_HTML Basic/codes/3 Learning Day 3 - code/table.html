@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table in html </title>
+    <style>
+        table,
+        tr,
+        th,
+        td {
+            border: 1px solid black;
+            border-collapse: collapse;
+            text-align: center;
+            caption-side: bottom;
+        }
+    </style>
+</head>
+
+<body>
+    <table>
+        <caption>My One Week Time Table</caption>
+        <colgroup>
+            <col span="3" style="background-color: red;">
+        </colgroup>
+        <tr>
+            <th>Days</th>
+            <th colspan="4">Classes</th>
+            <!-- <th></th> -->
+        </tr>
+        <tr>
+            <td>Mon</td>
+            <td>DSA(9pm - 11pm)</td>
+            <td>Development(12am - 3am)</td>
+            <td>DSA Problems Practice(9am - 12pm)</td>
+            <td>DSA Problems Practice(2pm - 6pm)</td>
+        </tr>
+        <tr>
+            <td>Tues</td>
+            <td colspan="4">All Day Development</td>
+            <!-- <td></td> -->
+        </tr>
+        <tr>
+            <td>Wed</td>
+            <td>DSA(9pm - 11pm)</td>
+            <td>Development(12am - 3am)</td>
+            <td>DSA Problems Practice(9am - 12pm)</td>
+            <td>DSA Problems Practice(2pm - 6pm)</td>
+        </tr>
+        <tr>
+            <td>Thus</td>
+            <td colspan="4">All Day Development</td>
+
+        </tr>
+        <tr>
+            <td>Fri</td>
+            <td>DSA(9pm - 11pm)</td>
+            <td>Development(12am - 3am)</td>
+            <td>DSA Problems Practice(9am - 12pm)</td>
+            <td>DSA Problems Practice(2pm - 6pm)</td>
+        </tr>
+        <tr>
+            <td>Sat</td>
+            <th colspan="4" rowspan="2">Week end</th>
+        </tr>
+        <tr>
+            <td>Sun</td>
+        </tr>
+
+    </table>
+</body>
+
+</html>
