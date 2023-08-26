@@ -1,0 +1,37 @@
+.product {
+    border: 1px solid black;
+    width: 310px;
+    height: 300px;
+    background-color: white;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+
+.img {
+    margin: 15px;
+    border-radius: 8px;
+}
+
+.title {
+    color: black;
+    font-size: large;
+    /* padding-bottom: -10px; */
+    padding-left: 15px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 900;
+}
+
+.line {
+    border: 1px solid gainsboro;
+    /* padding: 10px; */
+    align-items: center;
+
+}
+
+.rup {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 900;
+    color: lightskyblue;
+    /* padding-left: ; */
+    padding-left: 10px;
+}
