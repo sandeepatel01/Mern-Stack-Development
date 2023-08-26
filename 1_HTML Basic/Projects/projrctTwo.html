@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodeWithSandy - Home</title>
+</head>
+
+<body>
+    <h1>Welcome to CodeWithSandy</h1>
+    <h2>Contact Us Form</h2>
+
+    <form action="">
+        <label for="username">Username:</label>
+        <input type="text" placeholder="Enter Your Name">
+        <br>
+        <label for="email">Email:</label>
+        <input type="email" placeholder="Enter Your Email">
+        <br>
+        <label for="number">Contact Number:</label>
+        <input type="number" placeholder="Enter Contact Number">
+        <br>
+        <label for="gen-select">Gender:</label>
+        <select name="gender" id="gen-select">
+            <option value="">Male</option>
+            <option value="female">Female</option>
+            <option value="other">Other</option>
+        </select>
+        <br>
+        <label for="start">Date Of Birth:</label>
+        <input type="date" id="start" name="trip-start" value="dd/mm/yyy" min="" max="" />
+        <br>
+        <fieldset>
+            <legend>Rating:</legend>
+
+            <div>
+                <input type="radio" id="one" name="drone" value="" checked />
+                <label for="one">1</label>
+            </div>
+
+            <div>
+                <input type="radio" id="two" name="drone" value="" />
+                <label for="two">2</label>
+            </div>
+
+            <div>
+                <input type="radio" id="tree" name="drone" value="" />
+                <label for="tree">3</label>
+            </div>
+        </fieldset>
+        <br>
+        <p><label for="textarea">Enter Your Message:</label></p>
+        <textarea id="textarea" name="textarea" rows="4" cols="50" placeholder="Enter Your Message"></textarea>
+        <br>
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+        <br>
+    </form>
+</body>
+
+</html>
